@@ -15,4 +15,27 @@ Seria una playlist por defecto del bar y los clientes pueden comprar los coins p
 - RRSS: El cliente se puede registrar con su correo o cuentas de RRSS y se genera un usuario y el cliente puede solicitar en la barra que se le recargue coins a su cuenta
 - Usuario y password: Un registro basico sencillo funciona igual que el anterior, pero solo se solicita usuario y passwors y correo.
 
-> Si el posee uenta, solo debe escanear el QR del bar y automaticamente lo dirige a las listas / colas de ese bar
+> Si el posee uenta, solo debe escanear el QR del bar y automaticamente lo dirige a las listas / colas de ese bar, porque la otra opcion, es las opciones de geolocalizacion, pero hay que revisarla.
+
+### Infracestructura:
+
+#### Backend:
+
+- Framework Serverless
+- NodeJs
+- Websockets y ApiREST
+- Dynamodb
+- S3
+
+#### Frontend:
+
+-
+
+## Cosas a considerar:
+
+- Debe contener un dashboard de para que la caja del bar pueda asignar los coins y pueda a su vez setear las listas de reproduccion y adminstrar.
+- Se debe tener una lista de canciones para ofrecer.
+- Las suscripciones deben ser por paquetes
+- Las canciones se deben filtrar, por nombre, genero, artista.
+- Crear la posibilidad de fichas premiun o vip, que adelanten la posicion de las canciones en la lista.
+- La comunicacion entre el reproductor y el backend debe ser por sockets.
