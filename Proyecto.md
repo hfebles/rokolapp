@@ -4,6 +4,8 @@ La idea es vender coins para que la gente pueda seleccionar canciones.
 
 Seria una playlist por defecto del bar y los clientes pueden comprar los coins para hacer el su seleccion musical.
 
+Se haran 2 interfaces una para clientes y una para el reproductor.
+
 ### Como acceder:
 
 #### Opcion 1: Sin registro
